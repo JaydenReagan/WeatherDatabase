@@ -1,0 +1,37 @@
+body {
+  background-image: url(blueSky.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+.input {
+  display: flex;
+  text-align: left;
+  border: solid black 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 1%;
+  padding: 1%;
+}
+
+#usa {
+  width: 45%;
+}
+form {
+  width: 40%;
+}
+
+.error {
+  color: red;
+}
+
+h1{
+  font-family: 'Rampart One', cursive;
+}
+
+.card{
+  margin-left: 30%;      
+  margin-right: 30%;
+}
